@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
  
-require_relative 'twitterbot'
+require_relative 'botcore'
  
 Twitter.configure {|config|
-  config.consumer_key = 'consumer key'
-  config.consumer_secret = 'consumer secret'
-  config.oauth_token = 'oauth token'
-  config.oauth_token_secret = 'oauth token secret'
+  config.consumer_key = 'KimsIWLyEVXTLaerhQAhNII7R'
+  config.consumer_secret = 'HSp1WyfN0dc0AzX8GY5H5ccutHvABSNdvw0csbFXqcgAtAtGCO'
+  config.oauth_token = '2779471724-k2OSEpqj1o73QcMi2iQaZd3C8ERHxRjC1avIM8a'
+  config.oauth_token_secret = 'LMwOrVvNk9kocwxd9wxPK1rOWNFSkJ1ooJL9cvovBtaqG'
 }
  
 counter = 0
